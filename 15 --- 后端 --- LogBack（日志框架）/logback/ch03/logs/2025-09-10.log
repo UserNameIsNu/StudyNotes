@@ -1,0 +1,7 @@
+2025-09-10 10:14:03 [main] DEBUG edu.nf.ch03.Main（Line:11） - debug:2
+2025-09-10 10:14:03 [main] INFO edu.nf.ch03.Main（Line:12） - info:3
+2025-09-10 10:14:03 [main] WARN edu.nf.ch03.Main（Line:13） - warn:4
+2025-09-10 10:14:03 [main] ERROR edu.nf.ch03.Main（Line:14） - error:52025-09-10 10:47:13 [main] DEBUG edu.nf.ch03.Main（Line:9） - debug:2
+2025-09-10 10:47:13 [main] INFO edu.nf.ch03.Main（Line:10） - info:3
+2025-09-10 10:47:13 [main] WARN edu.nf.ch03.Main（Line:11） - warn:4
+2025-09-10 10:47:13 [main] ERROR edu.nf.ch03.Main（Line:12） - error:5

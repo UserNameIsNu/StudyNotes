@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+<h2>文件上传</h2>
+<form id="f1" enctype="multipart/form-data">
+    文件：<input type="file" name="file" multiple/>
+    <input type="button" value="上传"/>
+</form>
+<script>
+    $(function(){
+        $(':button').on('click', function(){
+             //构建formData封装表单数据
+             let formData = new FormData($('#f1')[0]);
+             //使用ajax提交
+             $.ajax({
+                 url: '/upload/test',
+                 type: 'post',
+                 data: formData,
+                 processData: false,
+                 contentType: false,
+                 success: function(result) {
+                    if(result.code == 200) {
+                        alert("上传成功");
+                    } else {
+                       alert("上传失败");
+                    }
+                 }
+             });
+        })
+    })
+</script>
+</body>
+</html>

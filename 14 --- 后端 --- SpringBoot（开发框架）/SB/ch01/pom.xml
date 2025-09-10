@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+        这里是SB的父级依赖
+        提供了默认的Java版本，UTF-8的编码设置，插件管理与各种依赖库的版本号管理等功能
+        且受益于父级依赖包含的版本号管理功能，这里引入其它库依赖时基本都不需要定义版本号了
+      -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.5</version> <!--  要更换SB版本，直接改这里的版本号就行  -->
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!--  项目坐标  -->
+    <groupId>edu.nf</groupId>
+    <artifactId>ch01</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <!--  项目名与项目描述  -->
+    <name>ch01</name>
+    <description>ch01</description>
+
+    <!--  删了也无妨  -->
+    <properties>
+        <java.version>21</java.version>
+    </properties>
+
+    <dependencies>
+        <!--
+            SB核心依赖
+          -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!--  SB单元测试依赖  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--  用于把SB应用打成jar或war  -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

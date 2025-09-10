@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+            fetch('http://localhost:8080/user/test?id=101010100')
+                .then(response => response.text())
+                .then(text => console.log(text))
+                .catch(error => console.log('some thing is wrong:' + error))
+        </script>
+    </body>
+</html>

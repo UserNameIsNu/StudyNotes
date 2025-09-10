@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    scan为true时，若文件发生改变，则将会自动刷新
+    scanPeriod为扫描间隔
+    debug为是否打印logback内部日志（一般只输出程序的日志，没有这个日志框架本身的日志）
+  -->
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <!--  用于指定日志的输出类型（控制台，文件，数据库等）  -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!--
+                指定日志的编码与输出格式
+                %d：指定日期格式
+                %t：显示当前执行日志输出工作的线程名称
+                %p：显示日志级别
+                %C（大写）：输出日志所在的类的完整类名
+                %m：日志消息
+                %n：换行
+              -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %highlight(%p) %C - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--
+        配置logger的根，指定输出级别
+        输出级别（小到大）：TRACE < DEBUG < INFO < WARN < ERROR
+        在日志输出时仅会输出大于等于根级别的日志条目
+    -->
+    <root level="trace">
+        <appender-ref ref="console"/>
+    </root>
+</configuration>

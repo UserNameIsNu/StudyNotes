@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %highlight(%p) %C（Line:%L） - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--  滚动日志  -->
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--   配置滚动策略（如每天开一个新日志文件，或一个文件装满到多少MB就开个新的等）   -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--  指定生成的文件名  -->
+            <fileNamePattern>ch03/logs/%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--  保留归档文件的最大数量，这里意为仅保留最近30份日志文件  -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %p %C（Line:%L） - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
+    </root>
+</configuration>
