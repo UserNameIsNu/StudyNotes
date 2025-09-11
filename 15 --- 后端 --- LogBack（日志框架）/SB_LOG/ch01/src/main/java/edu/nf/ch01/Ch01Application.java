@@ -10,7 +10,9 @@ public class Ch01Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Ch01Application.class, args);
+        log.debug("!");
         log.info("!");
+        log.error("!");
     }
 
 }

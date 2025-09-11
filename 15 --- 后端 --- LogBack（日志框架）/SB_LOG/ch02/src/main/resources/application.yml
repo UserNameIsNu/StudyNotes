@@ -1,0 +1,5 @@
+# 主配置类（啥都别配，只用来导）
+spring:
+    profiles:
+        # 要导哪个文件，就把那个文件名短杠后的名字加进来
+        include: web, dao

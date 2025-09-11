@@ -1,0 +1,43 @@
+# 值绑定
+#student:
+#    userId: 1
+#    userName: tom
+#    age: 22
+
+# 松散绑定
+student:
+    user-id: 1
+    userName: tom
+    age: 22
+    # 对象
+    card:
+        cardNum: 12345
+    # 数组
+    # phones: 123, 456, 789
+    phones:
+        - 123
+        - 456
+        - 789
+    # map集合
+    score:
+        A: 1
+        B: 2
+        C: 3
+    # 对象集合
+    teachers:
+        - name: T1
+          age: 40
+        - name: T2
+          age: 50
+
+
+
+
+
+
+
+
+spring:
+    # 激活配置（要激活哪一份配置文件就改成对应文件名短杠后的名字）
+    profiles:
+        active: dev

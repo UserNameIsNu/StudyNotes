@@ -1,0 +1,17 @@
+# yml配置使用 : 加换行（点空格，不能用tab）进行分割
+# 值不需要换行，但也要加一个空格
+# 下面的结构等于spring.application.name=ch02
+spring:
+    application:
+        name: ch02
+
+# 日志
+logging:
+    file:
+        name: ch02/logs/test.log
+    level:
+        root: debug
+    logback:
+        rollingpolicy:
+            max-file-size: 1KB
+            max-history: 7

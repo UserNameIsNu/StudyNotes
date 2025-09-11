@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch01" />
+        <module name="ch02" />
       </profile>
       <profile name="Annotation profile for SB_LOG" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -27,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SB_LOG" options="-parameters" />
       <module name="ch01" options="-parameters" />
+      <module name="ch02" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>
   </component>
