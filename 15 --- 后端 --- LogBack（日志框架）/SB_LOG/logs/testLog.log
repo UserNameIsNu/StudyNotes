@@ -1,5 +1,0 @@
-2025-09-11 10:07:47 [SpringApplicationShutdownHook] DEBUG org.springframework.context.support.DefaultLifecycleProcessor?Line:467? - Bean 'applicationTaskExecutor' completed its stop procedure
-2025-09-11 10:07:47 [SpringApplicationShutdownHook] DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup?Line:611? - Stopping beans in phase -2147483647
-2025-09-11 10:07:47 [SpringApplicationShutdownHook] DEBUG org.springframework.context.support.DefaultLifecycleProcessor?Line:467? - Bean 'springBootLoggingLifecycle' completed its stop procedure
-2025-09-11 10:07:47 [SpringApplicationShutdownHook] DEBUG org.springframework.jmx.export.MBeanExporter?Line:467? - Unregistering JMX-exposed beans on shutdown
-2025-09-11 10:07:47 [SpringApplicationShutdownHook] DEBUG org.springframework.scheduling.concurrent.ExecutorConfigurationSupport?Line:370? - Shutting down ExecutorService 'applicationTaskExecutor'
