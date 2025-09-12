@@ -1,0 +1,50 @@
+# SB默认支持三种容器（tomcat，jetty，undertow），默认用tomcat
+spring:
+    application:
+        name: ch05
+    # SB默认启用了静态资源管理器，静态资源直接丢进约定目录下就行，不用自己折腾静态资源配置（约定目录有：static，public，resources等）
+    # 这三个约定目录下的资源不用配置啥，比如直接在目录下第一级的一个html，理应可以直接以上下文地址+文件名访问到
+    # 还可以自定义新的静态资源目录,这个自定义目录也是从resources开始找
+    # 不过定义了自定义的静态资源目录后，默认约定的三个目录就失效了
+    # 但也是可以配置多个目录的
+    web:
+        resources:
+            static-locations: classpath:whatTheFuckIsThis, classpath:static
+    # 配置试图解析器
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp
+            suffix: .jsp
+    # jackson的如日期格式化，时区等也是可以设置的
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+    # 启用上传配置
+    servlet:
+        multipart:
+            enabled: true
+            max-file-size: 10MB
+            max-request-size: 800MB
+    lifecycle:
+        # 设置优雅停机的缓冲时间，就是给它这些时间用来处理后事
+        # 超时的话就不管了，直接弄死
+        timeout-per-shutdown-phase: 30s
+# web容器配置
+server:
+    # 端口号
+    port: 8089
+    # 优雅停机？？？
+    shutdown: graceful
+    # 上下文路径
+    servlet:
+        context-path: /
+        # 字符编码过滤器
+        encoding:
+            enabled: true
+            charset: UTF-8
+            force: true
+    # 错误页面配置
+    # 如果不想要默认的报错页面，那就在可以访问的静态资源目录下加个error目录，里面放自己的错误页面就行，命名必须是`错误码.html`
+    error:
+        whitelabel:
+            enabled: false

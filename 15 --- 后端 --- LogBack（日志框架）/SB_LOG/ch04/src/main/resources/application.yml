@@ -1,0 +1,32 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3307/java211?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: root
+        hikari:
+            # 最小空闲连接数
+            minimum-idle: 5
+            # 最大连接数
+            maximum-pool-size: 200
+            # 极限空闲时长（超出后将大于最小空闲连接数量的连接关掉）
+            idle-timeout: 90000
+            # 超时时长（超出后还没从池子里拿到连接就报错）
+            connection-timeout: 5000
+            # 检查连接是否有效
+            connection-test-query: select 1
+mybatis:
+    # 扫描的包实体
+    type-aliases-package: com.example.ch04.entity
+    # mapper映射路径
+    mapper-locations: classpath:/mappers/*.xml
+    configuration:
+        # 输出日志
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+pagehelper:
+    # 数据库方言
+    helper-dialect: mysql
+    # 分页合理化
+    reasonable: true
+    # 启用注解分页参数
+    support-methods-arguments: true

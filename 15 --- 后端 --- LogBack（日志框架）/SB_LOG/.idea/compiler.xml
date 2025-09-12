@@ -7,21 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch05_homework" />
+        <module name="SB_LOG" />
+        <module name="ch05" />
+        <module name="ch03" />
+        <module name="ch04" />
         <module name="ch01" />
         <module name="ch02" />
-        <module name="ch03" />
-      </profile>
-      <profile name="Annotation profile for SB_LOG" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../../../8，Sundry/代码支持/mavenHome/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="SB_LOG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hgz" target="21" />
       <module name="springboot-demo" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -31,6 +27,10 @@
       <module name="ch01" options="-parameters" />
       <module name="ch02" options="-parameters" />
       <module name="ch03" options="-parameters" />
+      <module name="ch04" options="-parameters" />
+      <module name="ch05" options="-parameters" />
+      <module name="ch05_homework" options="-parameters" />
+      <module name="hgz" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>
   </component>
