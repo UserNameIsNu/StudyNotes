@@ -1,0 +1,3 @@
+org\c3p0\spring\boot\autoconfigure\c3p0DataSourceAutoConfigure.class
+META-INF\spring-configuration-metadata.json
+org\c3p0\spring\boot\autoconfigure\properties\C3p0DataSourceProperties.class
