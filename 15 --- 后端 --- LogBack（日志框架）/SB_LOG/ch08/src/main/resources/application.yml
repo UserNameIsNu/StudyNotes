@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: ch08
+springdoc:
+    swagger-ui:
+        path: /swagger.html
+    packages-to-scan: com.ljf.ch08.web.api
+    api-docs:
+        enabled: true

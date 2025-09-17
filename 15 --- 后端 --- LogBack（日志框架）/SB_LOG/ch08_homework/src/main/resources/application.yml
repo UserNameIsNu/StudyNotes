@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: ch08_homework
+# open api配置
+springdoc:
+    # Swagger UI的访问路径（这是‘localhost://8080/swagger.html’）
+    swagger-ui:
+        path: /swagger.html
+    # 给哪些目录下的类生成文档（一般生成接口文档那么当然就要指到controller目录嘛）
+    packages-to-scan: edu.ljf.ch08_homework.web
+    # 是否启用自动生成文档（false的话写了注解，进到Swagger UI也不会有文档）
+    api-docs:
+        enabled: true
