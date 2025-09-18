@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 创建WebSocket对象
+    // WebSocket连接握手时会先用http协议发起连接升级请求
+    // 服务端确认后后续通信才会用WebSocket协议
+    const ws = new WebSocket("ws://localhost:8080/connect");
+    // 连接时触发
+    ws.onopen = function (){
+        console.log("客户端与服务器建立连接");
+        ws.send("6");
+    };
+    // 接收时触发
+    ws.onmessage = function (event){
+        console.log("接收的消息：" + event.data);
+    };
+    // 断开时触发
+    ws.onclose = function (){
+        console.log("连接断开");
+    };
+</script>
+</body>
+</html>
