@@ -1,4 +1,4 @@
-package edu.ljf.ws.server;
+package edu.ljf.ch02.ws.server;
 
 import jakarta.websocket.OnClose;
 import jakarta.websocket.OnMessage;
