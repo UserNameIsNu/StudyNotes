@@ -19,7 +19,6 @@
 
     ws.onmessage = function (event) {
         const msg = JSON.parse(event.data);
-        // console.log(msg)
         if (msg.onlineNum != null) {
             pNum.innerText = "在线人数：" + msg.onlineNum;
         } else {

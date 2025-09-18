@@ -23,7 +23,7 @@ public class HandshakeHandler extends Configurator {
             if (uName != null) {
                 // 最后把它保存在WebSocket的对象中
                 // 每个session都维护了一个Map
-                // getUserProperties方法就是用来得到session的Mao
+                // getUserProperties方法就是用来得到session的Map
                 sec.getUserProperties().put("uName", uName.toString());
             }
         }
