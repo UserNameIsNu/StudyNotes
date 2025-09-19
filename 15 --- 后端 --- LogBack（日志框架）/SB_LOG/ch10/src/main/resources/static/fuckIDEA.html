@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script src="js/stomp.min.js"></script>
+    </head>
+    <body>
+        <p>消息订阅：主题</p>
+        <div id="msg"></div>
+        <script>
+            // 创建WebSocket
+            const ws = new WebSocket("ws://localhost:8080/message-broker");
+            // 再把WebSocket对象包装成STOMP
+            const stomp = Stomp.over(ws);
+            // 心跳间隔时间(ms)（发出与接收心跳的间隔，心跳就是用来保证确认连接还在）
+            stomp.heartbeat.outgoing = 30000;
+            stomp.heartbeat.incoming = 30000;
+            // 连接服务器并订阅消息
+            stomp.connect({}, function (){
+                // 订阅
+                stomp.subscribe("/topic/message", function (data){
+                    const msg = JSON.parse(data.body);
+                    let msgDiv = document.getElementById("msg");
+                    msgDiv.innerHTML = "<p>date："+msg.sendDate+"</br>content："+msg.content+"</p>";
+                });
+            });
+        </script>
+    </body>
+</html>

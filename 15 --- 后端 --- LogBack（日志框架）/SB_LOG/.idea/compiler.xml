@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch09" />
         <module name="ch08_homework" />
         <module name="ch05_homework" />
         <module name="c3p0-spring-boot-starter" />
@@ -17,6 +18,7 @@
         <module name="ch04" />
         <module name="ch01" />
         <module name="ch02" />
+        <module name="ch10" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +41,8 @@
       <module name="ch07" options="-parameters" />
       <module name="ch08" options="-parameters" />
       <module name="ch08_homework" options="-parameters" />
+      <module name="ch09" options="-parameters" />
+      <module name="ch10" options="-parameters" />
       <module name="hgz" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>

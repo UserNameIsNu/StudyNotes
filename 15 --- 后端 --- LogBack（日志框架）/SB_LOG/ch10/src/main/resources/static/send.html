@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <p>发布消息</p>
+        <input id="msg" placeholder="输入内容" size="30">
+        <button onclick="send('/message')">发到 topic</button>
+        <button onclick="send('/sport')">发到 sport</button>
+        <script>
+            function send(path) {
+                const xhr = new XMLHttpRequest();
+                xhr.open("POST", path);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.send("message=" + encodeURIComponent(document.getElementById("msg").value));
+                document.getElementById("msg").value = '';
+            }
+        </script>
+    </body>
+</html>

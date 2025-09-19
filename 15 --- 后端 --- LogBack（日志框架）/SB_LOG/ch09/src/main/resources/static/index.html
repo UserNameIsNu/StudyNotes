@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <p id="pNum"></p>
+    <input type="text" id="text">
+    <button id="button">send</button>
+    <div id="div"></div>
+</head>
+<body>
+<script>
+    const text   = document.getElementById('text');
+    const button = document.getElementById('button');
+    const div    = document.getElementById('div');
+    const pNum   = document.getElementById('pNum');
+
+    const ws = new WebSocket('ws://localhost:8080/connect');
+
+    ws.onmessage = function (event) {
+        const msg = JSON.parse(event.data);
+        if (msg.onlineNum != null) {
+            pNum.innerText = "在线人数：" + msg.onlineNum;
+        } else {
+            const p = document.createElement('p');
+            p.innerHTML = msg.uname + "：" + msg.date + "</br>" + msg.content;
+            div.appendChild(p);
+        }
+    };
+
+    button.onclick = function () {
+        ws.send(text.value);
+    };
+</script>
+</body>
+</html>
