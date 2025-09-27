@@ -1,0 +1,21 @@
+spring:
+    application:
+        name: ch05
+    lifecycle:
+        # 设置优雅停机的缓冲时间，就是给它这些时间用来处理后事
+        # 超时的话就不管了，直接弄死
+        timeout-per-shutdown-phase: 30s
+# web容器配置
+server:
+    # 端口号
+    port: 8080
+    # 优雅停机？？？
+    shutdown: graceful
+    # 上下文路径
+    servlet:
+        context-path: /
+        # 字符编码过滤器
+        encoding:
+            enabled: true
+            charset: UTF-8
+            force: true

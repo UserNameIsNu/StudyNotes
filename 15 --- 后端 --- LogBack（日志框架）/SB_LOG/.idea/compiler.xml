@@ -10,7 +10,6 @@
         <module name="ch09" />
         <module name="ch08_homework" />
         <module name="ch05_homework" />
-        <module name="c3p0-spring-boot-starter" />
         <module name="ch07" />
         <module name="ch08" />
         <module name="ch05" />
@@ -19,6 +18,9 @@
         <module name="ch01" />
         <module name="ch02" />
         <module name="ch10" />
+        <module name="ch11" />
+        <module name="ch11_homework" />
+        <module name="c3p0-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,6 +45,8 @@
       <module name="ch08_homework" options="-parameters" />
       <module name="ch09" options="-parameters" />
       <module name="ch10" options="-parameters" />
+      <module name="ch11" options="-parameters" />
+      <module name="ch11_homework" options="-parameters" />
       <module name="hgz" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>
