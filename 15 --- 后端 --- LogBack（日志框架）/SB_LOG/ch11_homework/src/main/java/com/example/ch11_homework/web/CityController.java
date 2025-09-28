@@ -29,4 +29,9 @@ public class CityController implements CityService {
     public List<City> listCityProMax(int pageNum, int pageSize) {
         return cityService.listCityProMax(pageNum, pageSize);
     }
+
+    @GetMapping("/list/city/promaxultra")
+    public List<City> listCityProMaxUltra(int pageNum, int pageSize) {
+        return cityService.listCityProMaxUltra(pageNum, pageSize);
+    }
 }

@@ -8,4 +8,5 @@ public interface CityService {
     List<City> listCity(int pageNum, int pageSize);
     List<City> listCityPro(int pageNum, int pageSize);
     List<City> listCityProMax(int pageNum, int pageSize);
+    List<City> listCityProMaxUltra(int pageNum, int pageSize);
 }

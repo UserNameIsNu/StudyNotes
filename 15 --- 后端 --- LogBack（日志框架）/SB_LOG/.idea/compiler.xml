@@ -16,6 +16,7 @@
         <module name="ch03" />
         <module name="ch04" />
         <module name="ch01" />
+        <module name="ch12" />
         <module name="ch02" />
         <module name="ch10" />
         <module name="ch11" />
@@ -47,6 +48,7 @@
       <module name="ch10" options="-parameters" />
       <module name="ch11" options="-parameters" />
       <module name="ch11_homework" options="-parameters" />
+      <module name="ch12" options="-parameters" />
       <module name="hgz" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>

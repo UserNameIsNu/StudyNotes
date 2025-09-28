@@ -10,8 +10,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
@@ -71,7 +69,7 @@ public class CityServiceImpl implements CityService {
      * @param pageSize
      * @return
      */
-    // 将目标区间与其前面所有数据一并缓存
+    // 将目标区间与其前面所有数据一并缓存，且将对象集合拆分为对象分别缓存
     @Override
     public List<City> listCityPro(int pageNum, int pageSize) {
         try {
@@ -121,11 +119,13 @@ public class CityServiceImpl implements CityService {
 
     /**
      * 试图解决上面的问题
+     * 第二次的区间包含前一个区间的任意值时，缓存会失效
+     * 无法正常缓存，且无法返回正确的目标区间
      * @param pageNum
      * @param pageSize
      * @return
      */
-    // 独立暂存区间
+    // 仅暂存目标区间
     @Override
     public List<City> listCityProMax(int pageNum, int pageSize){
         try {
@@ -167,5 +167,44 @@ public class CityServiceImpl implements CityService {
                     }
                 })
                 .toList();
+    }
+
+    /**
+     * 试图解决上面的问题
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
+    // 修改包含验证逻辑
+    @Override
+    public List<City> listCityProMaxUltra(int pageNum, int pageSize){
+        try {
+            Long count = stringRedisTemplate.opsForZSet().count("citySet", (pageNum - 1) * pageSize, pageNum * pageSize - 1);
+            log.info("缓存区间：{},页数：{}，每页数：{}", count, pageNum, pageSize);
+            // 是否包含目标区间（缓存是否存在目标区间，且缓存存在的目标区间（id排号）是否全匹配等于实际目标区间）
+            if (count > 0 && count == pageSize) {
+                // 已包含
+                log.info("缓存包含");
+                // 返回
+                return transformPro(pageNum, pageSize);
+            } else {
+                // 未包含
+                log.info("缓存未包含");
+                // 获取从第一个到目标的最后一个
+                List<City> list = cityMapper.listCity(pageNum, pageSize);
+                // 目标区间起始分数（第几个）
+                int start = pageNum * pageSize - pageSize;
+                // 拆包逐个装填
+                for (City city : list) {
+                    stringRedisTemplate.opsForZSet().add("citySet", objectMapper.writeValueAsString(city), start);
+                    // 分数自增
+                    start++;
+                }
+                // 返回
+                return transformPro(pageNum, pageSize);
+            }
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("some thing is wrong：", e);
+        }
     }
 }
