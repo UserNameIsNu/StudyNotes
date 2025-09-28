@@ -17,4 +17,12 @@
         update goods_info set stock = stock - 1 where stock > 0 and g_id = #{goodsId}
     </update>
 
+    <update id="decrStocksById">
+        update goods_info set stock = stock - #{num} where stock > 0 and g_id = #{goodsId}
+    </update>
+    
+    <select id="getList" resultMap="goodsMap">
+        select g_id, g_name, stock from goods_info
+    </select>
+
 </mapper>
