@@ -71,11 +71,51 @@ public class OrderController {
      * @param num
      * @return
      */
-    @GetMapping("/order/proMax/{goodsId}/{userId}/{num}")
-    public ResultVO createOrderProMax(@PathVariable("goodsId") int goodsId,
-                                   @PathVariable("userId") int userId,
-                                   @PathVariable("num") int num) {
-        return ResultVO.success(orderService.placeOrderProMax(goodsId, userId, num));
+//    @GetMapping("/order/proMax/{goodsId}/{userId}/{num}")
+//    public ResultVO createOrderProMax(@PathVariable("goodsId") int goodsId,
+//                                   @PathVariable("userId") int userId,
+//                                   @PathVariable("num") int num) {
+//        return ResultVO.success(orderService.placeOrderProMax(goodsId, userId, num));
+//    }
+
+    /**
+     * 支付成功
+     * @param orderId
+     * @return
+     */
+//    @GetMapping("/order/pay/pro/{orderId}")
+//    public ResultVO payOrderPro(@PathVariable("orderId") String orderId) {
+//        orderService.payOrderPro(orderId);
+//        return ResultVO.success();
+//    }
+
+    /**
+     * 取消支付
+     * @param orderId
+     * @return
+     */
+//    @GetMapping("/order/cancel/pro/{orderId}")
+//    public ResultVO cancelOrderPro(@PathVariable("orderId") String orderId) {
+//        orderService.cancelOrderPro(orderId);
+//        return ResultVO.success();
+//    }
+
+
+
+
+
+    /**
+     * 下单
+     * @param goodsId
+     * @param userId
+     * @param num
+     * @return
+     */
+    @GetMapping("/order/proMaxUltra/{goodsId}/{userId}/{num}")
+    public ResultVO createOrderProMaxUltra(@PathVariable("goodsId") int goodsId,
+                                      @PathVariable("userId") int userId,
+                                      @PathVariable("num") int num) {
+        return ResultVO.success(orderService.placeOrderProMaxUltra(goodsId, userId, num));
     }
 
     /**
@@ -83,9 +123,9 @@ public class OrderController {
      * @param orderId
      * @return
      */
-    @GetMapping("/order/pay/pro/{orderId}")
-    public ResultVO payOrderPro(@PathVariable("orderId") String orderId) {
-        orderService.payOrderPro(orderId);
+    @GetMapping("/order/pay/proMax/{orderId}")
+    public ResultVO payOrderProMax(@PathVariable("orderId") String orderId) {
+        orderService.payOrderProMax(orderId);
         return ResultVO.success();
     }
 
@@ -94,9 +134,9 @@ public class OrderController {
      * @param orderId
      * @return
      */
-    @GetMapping("/order/cancel/pro/{orderId}")
-    public ResultVO cancelOrderPro(@PathVariable("orderId") String orderId) {
-        orderService.cancelOrderPro(orderId);
+    @GetMapping("/order/cancel/proMax/{orderId}")
+    public ResultVO cancelOrderProMax(@PathVariable("orderId") String orderId) {
+        orderService.cancelOrderProMax(orderId);
         return ResultVO.success();
     }
 }

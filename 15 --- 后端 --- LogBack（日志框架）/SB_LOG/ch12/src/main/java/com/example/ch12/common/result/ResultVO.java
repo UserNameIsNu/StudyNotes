@@ -1,5 +1,8 @@
 package com.example.ch12.common.result;
 
+import lombok.Data;
+
+@Data
 public class ResultVO {
     private Integer code;
     private String message;
