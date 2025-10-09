@@ -40,6 +40,11 @@ spring:
         cache-names: soldOutCache
         caffeine:
             spec: initialCapacity=50,maximumSize=10000,expireAfterWrite=10s
+    rabbitmq:
+        host: 127.0.0.1
+        port: 5672
+        username: guest
+        password: guest
 server:
     # 理应是最大线程数 * 等待长度就是瞬时成承受并发极限
     tomcat:
