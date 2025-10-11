@@ -1,0 +1,25 @@
+spring:
+    application:
+        name: ch04
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
+        virtual-host: /
+        connection-timeout: 5000
+        listener:
+            simple:
+                # 最小线程消费数，表示每个监听容器将开启2个线程用于消费消息
+                concurrency: 2
+                # 最大消费线程数
+                max-concurrency: 10
+                # 每个线程能从自身队列中抓取多少条消息（不要太大，怕某一个线程爽吃，其它线程饿死）
+                prefetch: 1
+                # 消费者的签收模式
+                # none：没有任何应答
+                # auto：自动签收，除非监听器抛出异常则应答失败
+                # manual：手动签收，必须调用响应的ack方法才会执行应答
+                acknowledge-mode: manual
+                # 当消费者监听器产生异常时，是否将消息重新放回队列，试图重新处理一次试试（默认true）
+                default-requeue-rejected: true
