@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/likedb?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      idle-timeout: 900000
+      connection-timeout: 5000
+      connection-test-query: select 1
+  data:
+    redis:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password: wangl
+      timeout: 2000
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 5000
+    publisher-confirm-type: correlated
+mybatis:
+  type-aliases-package: edu.nf.like.model.entity
+  mapper-locations: classpath:/mappers/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+pagehelper:
+  helper-dialect: mysql
+  support-methods-arguments: true
+  reasonable: true
+

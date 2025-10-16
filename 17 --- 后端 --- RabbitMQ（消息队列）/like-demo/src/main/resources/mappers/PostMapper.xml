@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.like.mapper.PostMapper">
+
+    <resultMap id="postMapper" type="post">
+        <id property="postId" column="post_id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="likeCount" column="like_count"/>
+        <association property="user">
+            <id property="userId" column="user_id"/>
+            <result property="userName" column="user_name"/>
+        </association>
+    </resultMap>
+
+    <select id="listPost" resultMap="postMapper">
+        select p.post_id, p.title, p.content, p.like_count, u.user_id, u.user_name
+        from post_info p join user_info u on u.user_id = p.user_id
+    </select>
+
+    <update id="update" parameterType="post">
+        update post_info
+        <set>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content}
+            </if>
+            <if test="likeCount != null">
+                like_count = #{likeCount}
+            </if>
+        </set>
+        where post_id = #{postId}
+    </update>
+</mapper>

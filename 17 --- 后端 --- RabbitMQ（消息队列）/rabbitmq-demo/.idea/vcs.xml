@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ch08" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rabbitmq-demo" vcs="Git" />
   </component>
 </project>
