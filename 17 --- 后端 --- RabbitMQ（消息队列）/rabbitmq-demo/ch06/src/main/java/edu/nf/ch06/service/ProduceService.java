@@ -56,7 +56,7 @@ public class ProduceService {
         template.convertAndSend("test.exchange",
                 "aaa", message, data);
         //确认消息是否投递到队列中
-        //注意：只有消息为正确到达队列时才会执行这个回调
+        //注意：只有消息无法路由到达队列时才会执行这个回调
         template.setReturnsCallback(returnedMessage -> {
             log.info("消息内容：{}", new String(returnedMessage.getMessage().getBody(), StandardCharsets.UTF_8));
             log.info("确认码：{}", returnedMessage.getReplyCode());

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.seckill.mapper.GoodsMapper">
+
+    <resultMap id="goodsMap" type="edu.nf.seckill.entity.Goods">
+        <id property="gid" column="g_id"/>
+        <result property="name" column="g_name"/>
+        <result property="stock" column="stock"/>
+    </resultMap>
+
+    <select id="listGoods" resultMap="goodsMap">
+        select g_id, g_name, stock from goods_info
+    </select>
+
+    <update id="decrStock" parameterType="int">
+        update goods_info set stock = stock - 1 where g_id = #{id} and stock > 0
+    </update>
+
+</mapper>

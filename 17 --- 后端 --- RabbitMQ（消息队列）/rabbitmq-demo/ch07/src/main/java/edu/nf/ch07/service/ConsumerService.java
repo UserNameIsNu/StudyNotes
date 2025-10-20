@@ -1,6 +1,5 @@
 package edu.nf.ch07.service;
 
-import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.AmqpRejectAndDontRequeueException;
 import org.springframework.amqp.core.ExchangeTypes;
@@ -29,7 +28,8 @@ public class ConsumerService {
         //当抛出这个异常将不会把消息重新放回队列
         //throw new AmqpRejectAndDontRequeueException("消费失败");
 
-        //basicAck是确认签收（表示消费成功），
+        //手动签收模式的拒签和重回队列
+        //当使用手动签收模式时，basicAck是确认签收（表示消费成功），
         //如果消费失败应该拒签，拒签使用basicNack方法（支持批量处理）
         //第二个参数是否批量拒签
         //第三个参数设置为true表示重新放回队列

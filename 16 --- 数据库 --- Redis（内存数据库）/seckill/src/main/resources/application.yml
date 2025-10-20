@@ -1,0 +1,58 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+spring:
+  application:
+    name: seckill
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/goods?serverTimeZone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 20
+      maximum-pool-size: 200
+      idle-timeout: 600000
+      connection-timeout: 5000
+      connection-test-query: select 1
+  data:
+    redis:
+      database: 0
+      host: 127.0.0.1
+      port: 6379
+      password: wangl
+      connect-timeout: 2000
+  cache:
+    type: caffeine
+    cache-names:
+      - localCache
+    caffeine:
+      # initialCapacity 缓存初始大小
+      # maximumSize 缓存的最大数量
+      # expireAfterWrite 最后一次写入后间隔指定的时间过期
+      spec: initialCapacity=50,maximumSize=500,expireAfterWrite=5s
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    connection-timeout: 2000
+    listener:
+      simple:
+        concurrency: 1
+        max-concurrency: 1
+        prefetch: 100
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: edu.nf.seckill.entity
+  mapper-locations: classpath:/mappers/*.xml
+
+
+

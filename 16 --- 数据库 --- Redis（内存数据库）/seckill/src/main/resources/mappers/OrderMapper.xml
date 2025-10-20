@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.nf.seckill.mapper.OrderMapper">
+
+    <resultMap id="orderMap" type="edu.nf.seckill.entity.Order">
+        <id property="orderId" column="order_id"/>
+        <result property="status" column="order_status"/>
+        <result property="userId" column="user_id"/>
+        <result property="gid" column="goods_id"/>
+    </resultMap>
+
+    <select id="getOrderById" resultMap="orderMap">
+        select order_id, order_status, user_id, goods_id
+        from order_info where order_id = #{id}
+    </select>
+
+    <insert id="createOrder" useGeneratedKeys="true" keyProperty="orderId">
+        insert into order_info(order_status, user_id, goods_id)
+        values(#{status}, #{userId}, #{gid})
+    </insert>
+
+    <update id="updateStatus">
+        update order_info set order_status = #{status} where order_id = #{id}
+    </update>
+</mapper>

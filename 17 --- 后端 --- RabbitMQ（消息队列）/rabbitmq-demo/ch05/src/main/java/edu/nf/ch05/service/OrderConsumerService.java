@@ -1,7 +1,17 @@
 package edu.nf.ch05.service;
 
+import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.annotation.Exchange;
+import org.springframework.amqp.rabbit.annotation.Queue;
+import org.springframework.amqp.rabbit.annotation.QueueBinding;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.support.AmqpHeaders;
+import org.springframework.messaging.handler.annotation.Headers;
 import org.springframework.stereotype.Service;
+
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * @author wangl
@@ -31,6 +41,8 @@ public class OrderConsumerService {
      * 如果是手动签收的模式，可以传入一个Channel参数，
      * 这个是rabbitmq客户端原生的API对象，使用这个对象
      * 来完成ACK的应答
+     *
+     * map参数用于获取消息头信息，需要结合@Headers注解
      */
     /*@RabbitListener(bindings = @QueueBinding(
          value = @Queue(name = RabbitmqConfig.QUEUE_NAME, durable = "false"),
@@ -39,7 +51,7 @@ public class OrderConsumerService {
     ))
     public void receive(String message,
                         Channel channel,
-                        Map<String, Object> headers) throws IOException {
+                        @Headers Map<String, Object> headers) throws IOException {
         log.info("处理消息: {}", message);
         //当手动签收时，需要给rabbitmq回馈条消息，告诉rabbitmq
         //当前的消息处理完毕。需要先从消息头中获取一个签收的标签
