@@ -22,26 +22,20 @@
         <module name="ch10" />
         <module name="ch11" />
         <module name="ch11_homework" />
+        <module name="ch13_homework" />
         <module name="c3p0-spring-boot-starter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ch06" target="21" />
-      <module name="hgz" target="21" />
-      <module name="springboot-demo" target="21" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SB_LOG" options="-parameters" />
-      <module name="c3p0-spring-boot-starter" options="" />
       <module name="ch01" options="-parameters" />
       <module name="ch02" options="-parameters" />
       <module name="ch03" options="-parameters" />
       <module name="ch04" options="-parameters" />
       <module name="ch05" options="-parameters" />
       <module name="ch05_homework" options="-parameters" />
-      <module name="ch06" options="-parameters" />
       <module name="ch07" options="-parameters" />
       <module name="ch08" options="-parameters" />
       <module name="ch08_homework" options="-parameters" />
@@ -51,8 +45,7 @@
       <module name="ch11_homework" options="-parameters" />
       <module name="ch12" options="-parameters" />
       <module name="ch13" options="-parameters" />
-      <module name="hgz" options="-parameters" />
-      <module name="springboot-demo" options="-parameters" />
+      <module name="ch13_homework" options="-parameters" />
     </option>
   </component>
 </project>

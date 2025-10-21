@@ -1,0 +1,30 @@
+package com.example.ch13_homework.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
+
+@Document(indexName = "news", createIndex = false)
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class News {
+    @Id
+    private Integer id;
+
+    @Field(type = FieldType.Text, analyzer = "ik_max_word")
+    private String title;
+
+    @Field(type = FieldType.Keyword, index = false)
+    private String author;
+
+    @Field(type = FieldType.Keyword, index = false)
+    private String classification;
+
+    @Field(type = FieldType.Text, analyzer = "ik_max_word")
+    private String text;
+}

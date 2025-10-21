@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62bbfd24-9ad9-455c-ac9d-df86bb8cab1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ch13_homework/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/src/main/java/com/example/ch13_homework/Ch13HomeworkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13_homework/src/test/java/com/example/ch13_homework/Ch13HomeworkApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch13/src/test/java/com/example/ch13/Ch13ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch13/src/test/java/com/example/ch13/Ch13ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MyBatis-mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ch13_homework" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\planOfElectronicHamster\8_Sundry\代码支持\mavenHome" />
+        <option name="userSettingsFile" value="D:\planOfElectronicHamster\8_Sundry\代码支持\mavenHome\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="34MJuhj9EiLtWgulIRqbZ3ZD8rx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "D:/planOfElectronicHamster/4_School/4_2025秋季/学习笔记/14 --- 后端 --- SpringBoot（开发框架）/SB",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.18159609",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Ch13HomeworkApplicationTests.pushNews">
+    <configuration name="Ch13HomeworkApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplicationTests.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="METHOD_NAME" value="load" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplicationTests.pushNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="METHOD_NAME" value="pushNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplicationTests.updNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="METHOD_NAME" value="updNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nf.ch01.Ch01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch02.Ch02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch03Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch03.Ch03Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch04" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch04.Ch04Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch05Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch05" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch05.Ch05Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch05HomeworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch05_homework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.notfound.ch05_homework.Ch05HomeworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch07Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch07" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljf.ch07.Ch07Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch08Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch08" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljf.ch08.Ch08Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch08HomeworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch08_homework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ljf.ch08_homework.Ch08HomeworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch09Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch09" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljf.ch09.Ch09Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch10Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch10" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch10.Ch10Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch11.Ch11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch12Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch12" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch12.Ch12Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch13" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch13.Ch13Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ch13_homework.Ch13HomeworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.pushNews" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.updNews" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.load" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62bbfd24-9ad9-455c-ac9d-df86bb8cab1b" name="Changes" comment="" />
+      <created>1761017732297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761017732297</updated>
+      <workItem from="1761017733351" duration="11755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

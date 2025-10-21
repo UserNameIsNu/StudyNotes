@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.ch13_homework.mapper.NewsMapper">
+    <resultMap id="newsMap" type="com.example.ch13_homework.entity.News">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="author" column="author"/>
+        <result property="classification" column="classification"/>
+        <result property="text" column="text"/>
+    </resultMap>
+
+    <select id="connTest" resultMap="newsMap">
+        select id, title, author, classification, text from news
+    </select>
+    
+    <insert id="pushNews">
+        insert into news(title, author, classification, text) values(#{title}, #{author}, #{classification}, #{text})
+    </insert>
+</mapper>
