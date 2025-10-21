@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: ch13
+    elasticsearch:
+        # 连接es的服务器地址，要连接多个使用逗号隔开
+        uris: http://localhost:9200
+        # 连接超时时间
+        connection-timeout: 2s
+        # 认证的账号和密码（若有）
+        # username: xxx
+        # password: xxx
