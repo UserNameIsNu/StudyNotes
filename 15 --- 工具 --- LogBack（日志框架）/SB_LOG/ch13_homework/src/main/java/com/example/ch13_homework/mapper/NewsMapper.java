@@ -10,4 +10,10 @@ public interface NewsMapper {
 
     // 发布新闻
     void pushNews(@Param("title") String title, @Param("author") String author, @Param("classification") String classification, @Param("text") String text);
+
+    // 获取ID，根据其它所有字段
+    Integer getIdByAllField(@Param("title") String title, @Param("author") String author, @Param("classification") String classification, @Param("text") String text);
+
+    // 获取对象，根据ID
+    News getNewsById(@Param("id") Integer id);
 }

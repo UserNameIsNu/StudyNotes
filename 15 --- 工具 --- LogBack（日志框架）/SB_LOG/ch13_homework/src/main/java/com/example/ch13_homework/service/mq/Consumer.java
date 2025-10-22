@@ -50,6 +50,10 @@ public class Consumer {
      */
     @RabbitListener(queues = RabbitDeleteConfig.DEL_QUEUE_NAME)
     public void del(Object[] objects) {
-        elasticsearchOperations.delete((String)objects[0], (Class<?>) objects[1]);
+        try {
+            elasticsearchOperations.delete(objects[0].toString(), Class.forName(objects[1].toString()));
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

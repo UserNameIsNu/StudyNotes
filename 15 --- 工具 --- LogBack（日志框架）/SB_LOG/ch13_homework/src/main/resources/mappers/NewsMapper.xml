@@ -13,6 +13,14 @@
     <select id="connTest" resultMap="newsMap">
         select id, title, author, classification, text from news
     </select>
+
+    <select id="getNewsById" resultMap="newsMap">
+        select id, title, author, classification, text from news where id = #{id}
+    </select>
+
+    <select id="getIdByAllField" resultType="java.lang.Integer">
+        select id from news where title = #{title} and author = #{author} and classification = #{classification} and text = #{text}
+    </select>
     
     <insert id="pushNews">
         insert into news(title, author, classification, text) values(#{title}, #{author}, #{classification}, #{text})

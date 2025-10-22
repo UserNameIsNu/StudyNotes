@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62bbfd24-9ad9-455c-ac9d-df86bb8cab1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch13_homework/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/src/main/java/com/example/ch13_homework/Ch13HomeworkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch13_homework/src/test/java/com/example/ch13_homework/Ch13HomeworkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch13/src/test/java/com/example/ch13/Ch13ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch13/src/test/java/com/example/ch13/Ch13ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ch13_homework" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,10 +35,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="34MJuhj9EiLtWgulIRqbZ3ZD8rx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -63,32 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "D:/planOfElectronicHamster/4_School/4_2025秋季/学习笔记/14 --- 后端 --- SpringBoot（开发框架）/SB",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.18159609",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/planOfElectronicHamster/4_School/4_2025秋季/学习笔记/15 --- 工具 --- LogBack（日志框架）/SB_LOG&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.18159609&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4e2eb787732b46c453961c173f9133df&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Ch13HomeworkApplicationTests.pushNews">
-    <configuration name="Ch13HomeworkApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.Ch13HomeworkApplicationTests.getNewsFormRedis">
+    <configuration name="Ch13HomeworkApplicationTests.delNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch13_homework" />
       <extension name="coverage">
         <pattern>
@@ -98,28 +83,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
       <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="METHOD_NAME" value="delNews" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ch13HomeworkApplicationTests.getNewsFormRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch13_homework" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +99,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
       <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="load" />
+      <option name="METHOD_NAME" value="getNewsFormRedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,6 +116,22 @@
       <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
       <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
       <option name="METHOD_NAME" value="pushNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch13HomeworkApplicationTests.searchNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch13_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ch13_homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
+      <option name="METHOD_NAME" value="searchNews" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.getNewsFormRedis" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.searchNews" />
         <item itemvalue="JUnit.Ch13HomeworkApplicationTests.pushNews" />
+        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.delNews" />
         <item itemvalue="JUnit.Ch13HomeworkApplicationTests.updNews" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.load" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +277,9 @@
       <option name="presentableId" value="Default" />
       <updated>1761017732297</updated>
       <workItem from="1761017733351" duration="11755000" />
+      <workItem from="1761094762074" duration="3823000" />
+      <workItem from="1761102023549" duration="600000" />
+      <workItem from="1761122062225" duration="1927000" />
     </task>
     <servers />
   </component>

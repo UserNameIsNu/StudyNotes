@@ -19,10 +19,10 @@ public class News {
     @Field(type = FieldType.Text, analyzer = "ik_max_word")
     private String title;
 
-    @Field(type = FieldType.Keyword, index = false)
+    @Field(type = FieldType.Keyword)
     private String author;
 
-    @Field(type = FieldType.Keyword, index = false)
+    @Field(type = FieldType.Keyword)
     private String classification;
 
     @Field(type = FieldType.Text, analyzer = "ik_max_word")
