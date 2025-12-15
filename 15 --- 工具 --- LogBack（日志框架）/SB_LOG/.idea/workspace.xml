@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62bbfd24-9ad9-455c-ac9d-df86bb8cab1b" name="Changes" comment="">
+    <list default="true" id="bd44f435-f395-4574-9922-f57c9afc02a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/c3p0-spring-boot-starter-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c3p0-spring-boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../17 --- 工具 --- RabbitMQ（消息队列）/rabbitmq-demo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="MyBatis-mapper" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -35,120 +39,37 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="34MJuhj9EiLtWgulIRqbZ3ZD8rx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="34Rlx8JXdCPGphbIRtj3Y0emMBZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/planOfElectronicHamster/4_School/4_2025秋季/学习笔记/15 --- 工具 --- LogBack（日志框架）/SB_LOG&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.18159609&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4e2eb787732b46c453961c173f9133df&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "D:/planOfElectronicHamster/4_School/4_2025秋季/学习笔记/15 --- 工具 --- LogBack（日志框架）/SB_LOG/ch13_homework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2632184",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Ch13HomeworkApplicationTests.getNewsFormRedis">
-    <configuration name="Ch13HomeworkApplicationTests.delNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="delNews" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.getNewsFormRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="getNewsFormRedis" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.pushNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="pushNews" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.searchNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="searchNews" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch13HomeworkApplicationTests.updNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch13_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ch13_homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ch13_homework" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ch13_homework.Ch13HomeworkApplicationTests" />
-      <option name="METHOD_NAME" value="updNews" />
-      <option name="TEST_OBJECT" value="method" />
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="abc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,26 +181,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.getNewsFormRedis" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.searchNews" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.pushNews" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.delNews" />
-        <item itemvalue="JUnit.Ch13HomeworkApplicationTests.updNews" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62bbfd24-9ad9-455c-ac9d-df86bb8cab1b" name="Changes" comment="" />
-      <created>1761017732297</created>
+      <changelist id="bd44f435-f395-4574-9922-f57c9afc02a6" name="Changes" comment="" />
+      <created>1761184508785</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761017732297</updated>
-      <workItem from="1761017733351" duration="11755000" />
-      <workItem from="1761094762074" duration="3823000" />
-      <workItem from="1761102023549" duration="600000" />
-      <workItem from="1761122062225" duration="1927000" />
+      <updated>1761184508785</updated>
+      <workItem from="1761184509822" duration="689000" />
     </task>
     <servers />
   </component>

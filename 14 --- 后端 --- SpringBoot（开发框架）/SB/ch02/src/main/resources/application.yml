@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: ch02
+    ai:
+        ollama:
+            base-url:

@@ -10,22 +10,26 @@
     {
       "name": "spring.datasource.c3p0.initial-pool-size",
       "type": "java.lang.Integer",
-      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties"
+      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties",
+      "defaultValue": 5
     },
     {
       "name": "spring.datasource.c3p0.max-idle-time",
       "type": "java.lang.Integer",
-      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties"
+      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties",
+      "defaultValue": 6000
     },
     {
       "name": "spring.datasource.c3p0.max-pool-size",
       "type": "java.lang.Integer",
-      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties"
+      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties",
+      "defaultValue": 200
     },
     {
       "name": "spring.datasource.c3p0.min-pool-size",
       "type": "java.lang.Integer",
-      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties"
+      "sourceType": "org.c3p0.spring.boot.autoconfigure.properties.C3p0DataSourceProperties",
+      "defaultValue": 5
     }
   ],
   "hints": [],
